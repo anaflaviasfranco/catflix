@@ -1,0 +1,139 @@
+{
+  "categorias": [
+    {
+      "titulo": "Games",
+      "link": "",
+      "cor": "#6BD1FF",
+      "videos": [
+        {
+          "titulo": "Como passar o tempo com o humano de home office?",
+          "url": "https://www.youtube.com/watch?v=lfKhkF3ksIM"
+        },
+        {
+          "titulo": "Pega barata",
+          "url": "https://www.youtube.com/watch?v=6iR9hdkPrTM"
+        },
+        {
+          "titulo": "A mosca",
+          "url": "https://www.youtube.com/watch?v=WG8HUH-9zVA"
+        },
+        {
+          "titulo": "Segue o fio",
+          "url": "https://www.youtube.com/watch?v=atr9l6UpdFY&t=167s"
+        },
+        {
+          "titulo": "Petiscos, ops... Pássaros",
+          "url": "https:/www.youtube.com/watch?v=aMF7q_piabw&t=20s"
+        },
+        {
+          "titulo": "Aquário",
+          "url": "https://www.youtube.com/watch?v=D0aHEQMhOj8"
+        },
+        {
+          "titulo": "A barata 2",
+          "url": "https://www.youtube.com/watch?v=PUFZMfWm6qw"
+        },
+        {
+          "titulo": "Laser",
+          "url": "https://www.youtube.com/watch?v=5oTJU5y8vjA"
+        }        
+      ]
+    },
+    {
+      "titulo": "Dicas",
+      "cor": "#00C86F",
+      "videos": [
+        {
+          "titulo": "Porque e Como Brincar com seu Gato | Gato é Vida #gatoevida",
+          "url": "https://www.youtube.com/watch?v=mFW-7NbKoRA&list=PL-gNxcC808q0oKgZIty8_IwaTuJofIDm3&index=2"
+        },
+        {
+          "titulo": "Como Gatifiquei minha Casa | Gato é Vida #gatoevida",
+          "url": "https://www.youtube.com/watch?v=1tDCd5kWPO4&list=PL-gNxcC808q0oKgZIty8_IwaTuJofIDm3&index=3"
+        },
+        {
+          "titulo": "Como Educar seus Gatos | Gato é Vida #gatoevida",
+          "url": "https://www.youtube.com/watch?v=OC3PvXYscNI&list=PL-gNxcC808q0oKgZIty8_IwaTuJofIDm3&index=4"
+        },
+        {
+          "titulo": "Ração para Gatos - Qual recomendamos e porque | Gato é Vida #gatoevida",
+          "url": "https://www.youtube.com/watch?v=k82_2A8abI0&list=PL-gNxcC808q0oKgZIty8_IwaTuJofIDm3&index=5"
+        }, 
+        {
+          "titulo": "Pelos de Gatos - Como lidar com eles | Gato é Vida #gatoevida",
+          "url": "https://www.youtube.com/watch?v=nBLDLpzGzec&list=PL-gNxcC808q0oKgZIty8_IwaTuJofIDm3&index=6"
+        }
+      ]
+    },
+    {
+      "titulo": "Meu gato endiabrado",
+      "cor": "#9cd33b",
+      "videos": [
+        {
+          "titulo": "Três ataques marcantes de felinos para Jackson Galaxy | Meu gato endiabrado | Animal Planet Brasil",
+          "url": "https://www.youtube.com/watch?v=AOH3mHA_AXk&list=PL0kBNbs2h4GnJQCTgG8mNRNugYoUZPEN7"
+        },
+        {
+          "titulo": "Prefere suportar ataques do gato a se afastar do animal | Meu gato endiabrado | Animal Planet Brasil",
+          "url": "https://www.youtube.com/watch?v=Ihc7t2aitNI&list=PL0kBNbs2h4GnJQCTgG8mNRNugYoUZPEN7&index=2"
+        },
+        {
+          "titulo": "Focinheira adaptada para gato deixa o Jackson perplexo | Meu gato endiabrado | Animal Planet Brasil",
+          "url": "https://www.youtube.com/watch?v=mR59iS-DtfI&list=PL0kBNbs2h4GnJQCTgG8mNRNugYoUZPEN7&index=6"
+        },
+        {
+          "titulo": "3 grandes mudanças de comportamento de gatos domésticos | Meu gato endiabrado | Animal Planet Brasil",
+          "url": "https://www.youtube.com/watch?v=M5FDPLZ63Hw&list=PL0kBNbs2h4GnJQCTgG8mNRNugYoUZPEN7&index=8"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Pets",
+          "url": "https://www.youtube.com/watch?v=e6OuFu_u2jA"
+        },
+        {
+          "titulo": "A origem de Salem",
+          "url": "https://www.youtube.com/watch?v=5woWzfVUya0"
+        },
+        {
+          "titulo": "Garfield",
+          "url": "https://www.youtube.com/watch?v=csun6uzNSLU"
+        },
+        {
+          "titulo": "O gato mais rico do mundo",
+          "url": "https://www.youtube.com/watch?v=yzKBWB6KGcs"
+        }
+      ]
+    },
+    {
+      "titulo": "Miados e sons relaxantes",
+      "cor": "#6b5be2",
+      "videos": [
+        {
+          "titulo": "A Melhor Música para Relaxar o seu Gato - o seu gato dorme | Melhora a ansiedade de Separação 2017",
+          "url": "https://www.youtube.com/watch?v=8Fdkgo5EOXA"
+        },
+        {
+          "titulo": "Música projetada para gatos 🐱 música para Relaxar gatos e gatinhos inquietos Dormir 2020 #BRMúsica",
+          "url": "https://www.youtube.com/watch?v=d5iT1EwbTCE"
+        },
+        {
+          "titulo": "Sons de Gatos Miando",
+          "url": "https://www.youtube.com/watch?v=fxjy-2fu6Ew"
+        },
+        {
+          "titulo": "SOM PARA CHAMAR ATENÇÃO DE GATO",
+          "url": "https://www.youtube.com/watch?v=FhmBIbnXvQ8"
+        },
+        {
+          "titulo": "Miado de Gato - Som de Gatos Miando Engraçado",
+          "url": "https://www.youtube.com/watch?v=q0qg7jkNBZc&list=PL3eqDA5Vv_8CWulLFsnOqZUDWH7jSSjT2"
+        }
+      ]
+    }
+  ]
+}
