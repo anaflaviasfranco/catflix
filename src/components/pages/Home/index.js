@@ -1,18 +1,18 @@
 import React from 'react';
-import Menu from './components/Menu';
-import Carousel from './components/Carousel'
-import Footer from './components/Footer'
-import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './components/BannerMain';
+import Menu from '../../Menu';
+import Carousel from '../../Carousel'
+import Footer from '../../Footer'
+import dadosIniciais from '../../../data/dados_iniciais.json';
+import BannerMain from '../../BannerMain';
 
-function App() {
+function Home() {
   return (
     <div>
       <Menu />
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O humano não sai mais de casa? Aqui você encontra diversas formas de se ocupar enquanto ignora o pspspspsps do intruso que não sai mais da sua casa."}
+        videoDescription={"pspspspspspspspspspspspspspspspspspspspspspspsps pspspspspspspspspspspspspspspspspspsppspspspspspspspsspsp"}
       />
 
       <Carousel
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
