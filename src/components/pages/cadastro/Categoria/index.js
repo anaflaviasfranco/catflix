@@ -21,19 +21,17 @@ function CadastroCategoria() {
   }
 
   function handleChange(infosDoEvento) {
-    // console.log('[nomeDaCategoria]', nomeDaCategoria);
-    // console.log('[infoDosEventos.target.value]', infosDoEvento.target.value);
-    // setValues(infosDoEvento.target.value);
-    const { getAttribute, value } = infosDoEvento.target;
     setValue(
-      getAttribute('name'),
-      value,
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value,
     );
   }
 
   useEffect(() => {
     // console.log('alo alo');
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://af-catflix.herokuapp.com/categorias';
 
     fetch(URL_TOP).then(async (respostaDoServidor) => {
       const resposta = await respostaDoServidor.json();
