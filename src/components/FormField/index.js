@@ -70,21 +70,37 @@ const Input = styled.input`
 `;
 
 function FormField({
-  label, type, name, value, onChange,
+  label, type, name, value, onChange, suggestion,
 }) {
   const fieldID = `id_${name}`;
 
   const isTextArea = type === 'textarea'; // Cria a variavel isTextArea que vai receber a variavel tipo por parametro e compara com o string, recebendo true ou false
   const tag = isTextArea ? 'textarea' : 'input';
 
+  const hasValue = Boolean(value.length);
+  const hasSuggestion = Boolean(suggestion.length);
+
   return (
     <FormFieldWrapper>
       <Label htmlFor={fieldID}>
-        <Input as={tag} id={fieldID} value={value} type={type} name={name} onChange={onChange} />
+        <Input as={tag} id={fieldID} value={value} type={type} name={name} onChange={onChange} autoComplete={hasSuggestion ? 'off' : 'on'} list={hasSuggestion ? `suggestionFor_${fieldId}` : undefined} />
         <Label.Text>
           {label}
           :
         </Label.Text>
+
+        { hasSuggestion && (
+        <datalist id={`suggestionFor_${fieldId}`}>
+          {
+          suggestion.map((suggestion) => {
+            <option value={suggestion} key={`suggestionFor_${fieldId}_option${suggestion}`}>
+              {suggestion}
+            </option>;
+          })
+        }
+        </datalist>
+        )}
+
       </Label>
     </FormFieldWrapper>
 
@@ -95,6 +111,7 @@ FormField.defaultProps = {
   type: 'text',
   value: '',
   onChange: () => {},
+  suggestion: [],
 };
 
 FormField.propTypes = {
@@ -103,5 +120,7 @@ FormField.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
   onChange: PropTypes.func,
+  suggestion: PropTypes.arrayOf(PropTypes.string),
 };
+
 export default FormField;
